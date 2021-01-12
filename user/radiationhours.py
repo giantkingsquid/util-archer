@@ -41,7 +41,7 @@ Installation:
                 # The schema defines the structure of the database.
                 # It is *only* used when the database is created.
                 #schema = schemas.wview.schema
-                schema = user.radiationhours.schema_with_sunshine_hour
+                schema = user.radiationhours.schema_with_sunshine_hours
 
     4. Shutdown Weewx and update your database to bring in the new field.
        wee_database weewx.conf --reconfigure
